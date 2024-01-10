@@ -15,8 +15,11 @@ This market analysis will answer two primary concerns raised by the management:
 1. Is Magist a good fit for high-end tech products?
 2. Are orders delivered on time?
 
-A 4-minute presentation answers both these concerns as detailed in the presentation slides - [Click here](Magist ppt.pdf).
-For the SQL code to obtain datasets, [Click here](ppt_final.sql)
+## Solution steps
+1. We first use <mark>SQL</mark> to create datasets ([Code here](ppt_final.sql))
+2. Use <mark>Tableau</mark>
+3. Create a 4-minute presentation that answers the concerns above - [PPT here](Magist ppt.pdf).
+4. Present it to Eniac CEO in front of team members
 
 > [!NOTE]
 > This work is a collaborative effort between Guy, Jean, and Sumit.
