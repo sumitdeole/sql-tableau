@@ -7,7 +7,7 @@ The Magist DB has the following schema:
 ![My Image](images/magist_schema.png)
 
 ## Tasks:
-- Assume the role of a _data analyst_
+- Assume the role of a <ins>data analyst<ins>
 - Use **SQL** and **Tableau** to create a presentation and present it in front of Eniac CEO
 
 ## Business concerns 
@@ -18,7 +18,7 @@ This market analysis should answer two primary concerns raised by the management
 ## Solution steps
 1. We first use **SQL** to create datasets - [Code here](code/SQL_code_final.sql)
 2. Use **Tableau** to generate informative charts
-3. Create a _4-minute_ presentation that answers the concerns above - [PPT here](https://github.com/sumitdeole/SQL-Tableau/blob/33a127cf8dabc51f7026e5c157c91cd45c16d749/Magist%20ppt.pdf).
+3. Create a <ins>4-minute<ins> presentation that answers the concerns above - [PPT here](https://github.com/sumitdeole/SQL-Tableau/blob/33a127cf8dabc51f7026e5c157c91cd45c16d749/Magist%20ppt.pdf).
 4. Present it to the Eniac CEO in front of team members
 
 > [!NOTE]
