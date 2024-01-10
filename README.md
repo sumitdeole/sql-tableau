@@ -17,9 +17,9 @@ This market analysis will answer two primary concerns raised by the management:
 
 ## Solution steps
 1. We first use <mark>SQL</mark> to create datasets - ([Code here](ppt_final.sql))
-2. Use <mark>Tableau</mark>
+2. Use <mark>Tableau</mark> to generate informative charts
 3. Create a 4-minute presentation that answers the concerns above - [PPT here](https://github.com/sumitdeole/SQL-Tableau/blob/33a127cf8dabc51f7026e5c157c91cd45c16d749/Magist%20ppt.pdf).
-4. Present it to Eniac CEO in front of team members
+4. Present it to the Eniac CEO in front of team members
 
 > [!NOTE]
 > This work is a collaborative effort between Guy, Jean, and Sumit.
