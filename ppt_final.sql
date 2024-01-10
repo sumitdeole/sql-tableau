@@ -1,4 +1,7 @@
 USE magist;
+/*
+This code gives us tables that we process with Tableau to create beautiful graphs used in the ppt.
+*/
 
 -- Exporting order delivery status information to a CSV file
 SELECT order_status, COUNT(*), COUNT(*)*100/(SELECT COUNT(*) FROM orders) 
@@ -10,24 +13,29 @@ FROM orders
 GROUP BY order_status;
 
 
--- Exporting monthly revenue for the company
+-- Exporting overall and High_tech monthly revenue for the company
 SELECT 
     DATE_FORMAT(o.order_purchase_timestamp, '%Y-%m') AS month,
-    SUM(oi.price * oi.order_item_id) AS monthly_revenue
+    SUM(CASE WHEN p.product_category_name IN ('telefonia', 'tablets_impressao_imagem', 'pcs', 'informatica_acessorios') THEN oi.price * oi.order_item_id ELSE 0 END) AS high_tech_revenue,
+    SUM(oi.price * oi.order_item_id) AS overall_revenue
 FROM 
     order_items AS oi
 LEFT JOIN 
     orders AS o ON oi.order_id = o.order_id
+LEFT JOIN
+    products AS p ON oi.product_id = p.product_id
 WHERE 
     o.order_status = "delivered"
     AND NOT
-    ((MONTH(order_purchase_timestamp) IN (09, 10, 12) AND YEAR(order_purchase_timestamp) = 2016)
-    OR (MONTH(order_purchase_timestamp) IN (09, 10) AND YEAR(order_purchase_timestamp) = 2018))
+    ((MONTH(o.order_purchase_timestamp) IN (09, 10, 12) AND YEAR(o.order_purchase_timestamp) = 2016)
+    OR (MONTH(o.order_purchase_timestamp) IN (09, 10) AND YEAR(o.order_purchase_timestamp) = 2018))
 GROUP BY 
     month
 ORDER BY 
     month;
 
+
+SELECT * FROM products;
 
 -- Exporting monthly order counts with specific exclusions to a CSV file
 SELECT DATE_FORMAT(order_purchase_timestamp, '%Y-%m') AS Month, COUNT(order_id) AS Num_orders
