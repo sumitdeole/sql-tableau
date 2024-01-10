@@ -15,8 +15,4 @@ This market analysis will answer two primary concerns raised by the management:
 1. Is Magist a good fit for high-end tech products?
 2. Are orders delivered on time?
 
-A 4-minute presentation answers both these concerns as detailed in the presentation slides -![Link here:]([Magist ppt.pdf](https://github.com/sumitdeole/SQL-Tableau/blob/da5b045f6593d6246156d7715b9fdf5a6398f975/Magist%20ppt.pdf)https://github.com/sumitdeole/SQL-Tableau/blob/da5b045f6593d6246156d7715b9fdf5a6398f975/Magist%20ppt.pdf)
-
-[Link Text]([Magist ppt.pdf](https://github.com/sumitdeole/SQL-Tableau/blob/da5b045f6593d6246156d7715b9fdf5a6398f975/Magist%20ppt.pdf)https://github.com/sumitdeole/SQL-Tableau/blob/da5b045f6593d6246156d7715b9fdf5a6398f975/Magist%20ppt.pdf)
-
-
+A 4-minute presentation answers both these concerns as detailed in the presentation slides -![click here]([https://github.com/sumitdeole/SQL-Tableau/blob/da5b045f6593d6246156d7715b9fdf5a6398f975/Magist%20ppt.pdf])
