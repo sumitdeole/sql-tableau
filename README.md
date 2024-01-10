@@ -1,7 +1,6 @@
 # Market analysis of Magist, an E-commerce platform from Brazil
 ## Description
-The presentation is made for Eniac, an online marketplace specializing in Apple-compatible accessories. Eniac wants to expand into Brazil and wants to know whether Magist is a suitable partner for Eniac products.
-For the market analysis, Magist sent a dataset of their sales in 2016-2018 to Eniac. 
+We are asked to prepare a presentation for Eniac, an online marketplace specializing in Apple-compatible accessories. Eniac wants to expand into Brazil and wants to know whether Magist is a suitable partner for Eniac products. For the market analysis, Magist sent a dataset of their sales in 2016-2018 to Eniac. 
 
 The Magist DB has the following schema:
 ![My Image](images/magist_schema.png)
