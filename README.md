@@ -18,5 +18,5 @@ This market analysis will answer two primary concerns raised by the management:
 A 4-minute presentation answers both these concerns as detailed in the presentation slides - [Click here](https://github.com/sumitdeole/SQL-Tableau/blob/da5b045f6593d6246156d7715b9fdf5a6398f975/Magist%20ppt.pdf)
 
 
-> **Note**
+> [!NOTE]
 > This work was conducted as a collaborative effort with Guy and Jean.
