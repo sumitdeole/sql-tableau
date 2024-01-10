@@ -4,7 +4,7 @@ The presentation is made for Eniac, an online marketplace specializing in Apple-
 For the market analysis, Magist sent a dataset of their sales in 2016-2018 to Eniac. 
 
 The DB consists of the following tables:
-![My Image](images/my-image.png)
+![My Image](images/magist_schema.png)
 
 ## Business concerns 
 This market analysis will answer to primary concerns raised by the management:
